@@ -2,6 +2,7 @@
 """test"""
 from SPARQLWrapper import SPARQLWrapper, JSON
 
+
 def main():
     """test"""
     sparql = SPARQLWrapper("http://www.w3.org/People/Berners-Lee/card")
@@ -14,8 +15,8 @@ def main():
     """)
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
-    print ( results)
-    #for result in results["results"]["bindings"]:
+    print(results)
+    # for result in results["results"]["bindings"]:
     #    print(result["label"]["value"])
 
 

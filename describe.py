@@ -13,9 +13,9 @@ def main():
 
     sparql.setReturnFormat(N3)
     results = sparql.query().convert()
-    g = Graph()
-    g.parse(data=results, format="n3")
-    print(g.serialize(format='n3'))
+    graph = Graph()
+    graph.parse(data=results, format="n3")
+    print(graph.serialize(format='n3'))
 
 
 if __name__ == "__main__":

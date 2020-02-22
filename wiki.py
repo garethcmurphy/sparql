@@ -2,6 +2,7 @@
 """query africa"""
 import requests
 
+
 def main():
     url = 'https://query.wikidata.org/sparql'
     query = """
@@ -18,8 +19,8 @@ def main():
     SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
     }
     """
-    r = requests.get(url, params={'format': 'json', 'query': query})
-    data = r.json()
+    response = requests.get(url, params={'format': 'json', 'query': query})
+    data = response.json()
     print(data)
 
 
