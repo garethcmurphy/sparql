@@ -4,6 +4,7 @@ import requests
 
 
 def main():
+    """test query"""
     url = 'https://query.wikidata.org/sparql'
     query = """
     SELECT 
