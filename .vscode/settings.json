@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#29310A",
+        "titleBar.activeBackground": "#3A440E",
+        "titleBar.activeForeground": "#F9FCEF"
+    },
+    "python.pythonPath": "/Users/garethmurphy/.local/share/virtualenvs/sparql-i_XGiJwU/bin/python"
+}
