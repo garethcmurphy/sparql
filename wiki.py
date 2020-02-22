@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""query africa"""
 import requests
 
 def main():
