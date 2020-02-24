@@ -2456,6 +2456,7 @@ The short wavelength allows the study of compounds containing absorbing elements
     <owl:NamedIndividual rdf:about="http://www.purl.org/pankos#DREAM">
         <rdf:type rdf:resource="http://www.purl.org/pankos#PowerDiffractometer"/>
         <pankos:inFacility rdf:resource="http://www.purl.org/pankos#ESS"/>
+        <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#NeutronDiffraction"/>
         <dc:description>Bispectral Powder Diffractometer
 DREAM is a versatile neutron powder diffractometer that will enable new physics and chemistry research, serving areas such as nanoscience, energy and battery materials, and complex magnetic structures. The instrument utilises favourably the long pulse and unprecedented peak brightness of the ESS by pulse shaping choppers and by viewing both thermal and cold moderators, which results in a particularly flexible choice between high resolution and high intensity.</dc:description>
     </owl:NamedIndividual>
@@ -5079,6 +5080,7 @@ We support a national and international community of more than 3000 scientists f
         <rdf:type rdf:resource="http://www.purl.org/pankos#Instrument"/>
         <rdf:type rdf:resource="http://www.purl.org/pankos#SANSInstrument"/>
         <rdf:type rdf:resource="http://www.purl.org/pankos#SmallAngleNeutronScattering"/>
+        <pankos:hasResolutionLevel rdf:resource="http://www.purl.org/pankos#LowResolution"/>
         <pankos:inFacility rdf:resource="http://www.purl.org/pankos#ESS"/>
         <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#SmallAngleNeutronScattering"/>
         <dc:description>Broadband SANS
@@ -5134,6 +5136,7 @@ LoKI is a SANS instrument that will enable scientists to answer the challenging 
         <rdf:type rdf:resource="http://www.purl.org/pankos#SingleCrystalDiffractometer"/>
         <pankos:inFacility rdf:resource="http://www.purl.org/pankos#ESS"/>
         <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#Diffraction"/>
+        <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#NeutronDiffraction"/>
         <dc:description>Magnetism Single-Crystal Diffractometer
 MAGiC is a polarized time-of-flight single-crystal diffractometer dedicated to the study of magnetic properties in both applied and purely fundamental systems. Its development and construction are supported by a French/German/Swiss consortium, relying on a mesh of unique and complementary technical and scientific expertise.
 
@@ -5690,8 +5693,10 @@ MIRACLES will be the time-of-flight backscattering instrument of the European Sp
 
     <owl:NamedIndividual rdf:about="http://www.purl.org/pankos#NMX">
         <rdf:type rdf:resource="http://www.purl.org/pankos#NeutronDiffractometer"/>
+        <pankos:hasResolutionLevel rdf:resource="http://www.purl.org/pankos#HighResolution"/>
         <pankos:inFacility rdf:resource="http://www.purl.org/pankos#ESS"/>
         <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#NeutronDiffraction"/>
+        <pankos:usesFileFormat rdf:resource="http://www.purl.org/pankos#Nexus"/>
         <dc:description>Macromolecular Diffractometer
 The NMX macromolecular diffractometer will open new avenues for structural biology with neutrons. Determining hydrogen atom positions faster than before from smaller crystals and larger unit cells than before will allow studies of more challenging systems such as transmembrane proton pumps. This will yield an improved understanding of not only fundamental biological processes such as energy production in cells, but also the way in which pharmaceuticals bind their target proteins.</dc:description>
     </owl:NamedIndividual>
@@ -6991,6 +6996,7 @@ The beamline was mainly intended for time-resolved studies on fast structural tr
     <owl:NamedIndividual rdf:about="http://www.purl.org/pankos#SKADI">
         <rdf:type rdf:resource="http://www.purl.org/pankos#SANSInstrument"/>
         <rdf:type rdf:resource="http://www.purl.org/pankos#SmallAngleNeutronScattering"/>
+        <pankos:hasResolutionLevel rdf:resource="http://www.purl.org/pankos#HighResolution"/>
         <pankos:inFacility rdf:resource="http://www.purl.org/pankos#ESS"/>
         <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#SmallAngleNeutronScattering"/>
         <dc:description>The Small-K Advanced DIffractometer SKADI is a versatile small-angle neutron scattering (SANS) instrument, which will enable scientists to perform a wide range of investigations on topics requiring small scattering angles to access long length scales. The scientific areas targeted by SKADI include investigations of smart materials, biological and medical research, magnetic materials and materials for energy storage, as well as experiments on nanomaterials and nanocomposites or colloidal systems. These experiments promise a high potential impact on science and society. To maximize the societal applicability of these studies SKADI is designed to accommodate in-situ measurements with custom-made sample environments to provide &quot;real-world&quot; conditions.</dc:description>

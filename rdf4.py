@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-
-"""
-Query using graph.query
-Result is iterable over the result rows
-result.vars contains the variables
-or result.bindings is a list of dicts of variables bindings
-"""
+""" Query using graph.query """
 
 import rdflib
 
@@ -14,16 +8,21 @@ def main():
     """ main"""
     graph = rdflib.Graph()
     graph.load("ess.rdf")
+    pankos_url = "https://raw.githubusercontent.com/ral-facilities/pankos/master/PanKOS/Version_1.0/pankos.rdf"
+    # graph.load(pankos_url)
 
     qres = graph.query(
-        """PREFIX supportsTechnique: <http://www.purl.org/pankos#supportsTechnique>
-           PREFIX NeutronDiffraction: <http://www.purl.org/pankos#NeutronDiffraction>
-           SELECT ?subject ?predicate ?object
+        """
+           SELECT ?subject
            WHERE {
-                ?subject  <http://www.purl.org/pankos#supportsTechnique> ?NeutronDiffraction .
+                ?subject  ?supportsTechnique  pankos:NeutronDiffraction;
+                          ?inFacility pankos:ESS .
            }""")
+    i = 0
     for row in qres:
-        print(row.subject.split('#')[-1], "supports Technique", row.object)# .split('#')[-1])
+        i = i + 1
+        # .split('#')[-1])
+        print(i, row.subject.split('#')[-1])
 
 
 if __name__ == "__main__":
