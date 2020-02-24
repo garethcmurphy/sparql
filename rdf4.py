@@ -15,7 +15,7 @@ def main():
         """
            SELECT ?subject
            WHERE {
-                ?subject  ?supportsTechnique  pankos:NeutronDiffraction;
+                ?subject  ?supportsTechnique  pankos:NeutronSpectroscopy;
                           ?inFacility pankos:ESS .
            }""")
     i = 0

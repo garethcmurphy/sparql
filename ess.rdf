@@ -1546,7 +1546,7 @@ The time-of-flight materials engineering diffractometer BEER built by the partne
     <owl:NamedIndividual rdf:about="http://www.purl.org/pankos#BIFROST">
         <rdf:type rdf:resource="http://www.purl.org/pankos#NeutronSpectrometer"/>
         <pankos:inFacility rdf:resource="http://www.purl.org/pankos#ESS"/>
-        <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#Spectroscopy"/>
+        <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#NeutronSpectroscopy"/>
         <dc:description>BIFROST
 Extreme Environment Spectrometer
 BIFROST will explore the intricate physics of magnetism and superconductivity, with applications in the IT and energy materials of tomorrow. It will also be used in geoscience and functional materials. It will do this with neutron spectroscopy, the main tool for investigating low-energy dispersive dynamics in single crystals.
@@ -1981,7 +1981,7 @@ Complex polymer films.</dc:description>
     <owl:NamedIndividual rdf:about="http://www.purl.org/pankos#CSPEC">
         <rdf:type rdf:resource="http://www.purl.org/pankos#NeutronSpectrometer"/>
         <pankos:inFacility rdf:resource="http://www.purl.org/pankos#ESS"/>
-        <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#Spectroscopy"/>
+        <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#NeutronSpectroscopy"/>
         <dc:description>CSPEC
 Cold Chopper Spectrometer
 CSPEC will used in a wide variety of scientific applications, spanning the life sciences, functional materials and chemistry. Its key capability is to follow kinetic events in situ or in operando, enabled by very high flux.
@@ -5242,9 +5242,7 @@ MERLIN has an m=3 supermirror guide to enhance flux as well as a massive π ster
         <rdf:type rdf:resource="http://www.purl.org/pankos#BackScatteringSpectrometer"/>
         <rdf:type rdf:resource="http://www.purl.org/pankos#NeutronSpectrometer"/>
         <pankos:inFacility rdf:resource="http://www.purl.org/pankos#ESS"/>
-        <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#BackScatteringSpectroscopy"/>
         <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#NeutronSpectroscopy"/>
-        <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#QuasiElasticNeutronSpinEchoScattering"/>
         <dc:description>MIRACLES
 Backscattering Spectrometer
 MIRACLES will be the time-of-flight backscattering instrument of the European Spallation Source. Revealing dynamic processes over a wide energy range, it will serve life science, polymer science, energy materials, magnetism studies and much more. The configuration of the long time-of-flight primary spectrometer and the large backscattering secondary spectrometer will give unprecedented energy resolution in accelerator-driven neutron source spectrometers, with an outstanding performance and versatility due to the flexibility of tuning energy resolution from a large dynamic range and performing quasielastic and inelastic neutron scattering experiment (QENS and INS) in a wide collection of operation modes.</dc:description>
@@ -7557,8 +7555,7 @@ This makes SXD especially powerful in applications involving surveys of reciproc
     <owl:NamedIndividual rdf:about="http://www.purl.org/pankos#T-REX">
         <rdf:type rdf:resource="http://www.purl.org/pankos#NeutronSpectrometer"/>
         <pankos:inFacility rdf:resource="http://www.purl.org/pankos#ESS"/>
-        <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#NeutronReflectometry"/>
-        <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#Spectroscopy"/>
+        <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#NeutronSpectroscopy"/>
         <dc:description>T-REX
 Bispectral Chopper Spectrometer
 T-REX will probe mainly single crystals of low dimensional, topological and frustrated materials, quantum magnets, high temperature superconductors, multifunctional oxides, molecular magnets and functional materials, such as catalysis metals, ion-transport materials, fuel cell membranes, nanomaterials, thermo-electric and magneto-caloric materials. These have potential societal applications in fields such as sustainable energy solutions, minimizing pollution, and water purification.
@@ -8204,7 +8201,7 @@ TOSCA&apos;s simple operation and the similarity of the spectra to the optical a
     <owl:NamedIndividual rdf:about="http://www.purl.org/pankos#VESPA">
         <rdf:type rdf:resource="http://www.purl.org/pankos#NeutronSpectrometer"/>
         <pankos:inFacility rdf:resource="http://www.purl.org/pankos#ESS"/>
-        <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#Spectroscopy"/>
+        <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#NeutronSpectroscopy"/>
         <dc:description>VESPA
 Vibrational Spectrometer
 VESPA is a neutron vibrational spectrometer, and as such it will be used in an extremely wide range of chemistry, physics and materials science as well as their applications . VESPA will access scientific domains out of reach for the other ESS instruments. A thermal instrument such as a vibrational spectrometer may seem an illogical choice to present to a neutron facility that is optimized for cold neutrons. However, the ESS brilliance into the thermal range is sufficient to easily match the leading neutron vibrational spectrometers in intensity and resolution in the so-called “fingerprint region” (60-220 meV), a range most important to identify functional groups. This represents a huge scientific opportunity for the ESS especially in the area of in situ measurements for catalysis and renewable energies not only for basic but also for applied scientific research.</dc:description>
