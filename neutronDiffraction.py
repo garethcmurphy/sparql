@@ -7,9 +7,9 @@ import rdflib
 def main():
     """ main"""
     graph = rdflib.Graph()
-    graph.load("ess.rdf")
-    pankos_url = "https://raw.githubusercontent.com/ral-facilities/pankos/master/PanKOS/Version_1.0/pankos.rdf"
-    # graph.load(pankos_url)
+    #graph.load("ess.rdf")
+    pankos_url = "https://raw.githubusercontent.com/garethcmurphy/sparql/master/ess.rdf"
+    graph.load(pankos_url)
 
     qres = graph.query(
         """
