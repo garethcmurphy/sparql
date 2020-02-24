@@ -13,18 +13,18 @@ def main():
 
     qres = graph.query(
         """
-           SELECT ?subject
+           SELECT DISTINCT ?subject
            WHERE {
-                ?subject  ?supportsTechnique  pankos:NeutronSpectroscopy;
-                          ?inFacility pankos:ESS .
+                ?subject ?inFacility pankos:ESS ;
+                         ?supportsTechnique pankos:NeutronReflectometry .
            }
-           ORDER BY ?subject
            """)
     i = 0
     for row in qres:
         i = i + 1
         # .split('#')[-1])
         print(i, row.subject.split('#')[-1])
+        # print(i, row)
 
 
 if __name__ == "__main__":
