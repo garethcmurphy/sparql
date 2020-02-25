@@ -3103,8 +3103,12 @@ Elettra develops excellence by providing state-of-the-art services for high-qual
 
     <owl:NamedIndividual rdf:about="http://www.purl.org/pankos#FREIA">
         <rdf:type rdf:resource="http://www.purl.org/pankos#Reflectometer"/>
+        <pankos:hasEnergyLevel rdf:resource="http://www.purl.org/pankos#HighEnergy"/>
+        <pankos:hasOperationStatus rdf:resource="http://www.purl.org/pankos#UnderConstruction"/>
+        <pankos:hasResolutionLevel rdf:resource="http://www.purl.org/pankos#HighResolution"/>
         <pankos:inFacility rdf:resource="http://www.purl.org/pankos#ESS"/>
         <pankos:supportsTechnique rdf:resource="http://www.purl.org/pankos#NeutronReflectometry"/>
+        <pankos:usesFileFormat rdf:resource="http://www.purl.org/pankos#Nexus"/>
         <dc:description>FREIA
 Liquids Reflectometer
 Understanding surface chemistry and the properties of layers and buried interfaces is a key challenge in life science and soft matter research. Examples include biological membranes, drug delivery systems, cosmetics and food. Neutron reflectometry is well suited to probing interface systems, and FREIA is a reflectometer optimised for soft condensed matter and life sciences. Both the structure and kinetics in thin film samples are of interest, particularly during their formation and in response to environmental changes. FREIA will allow experiments to be carried out without moving the sample, meaning that fast simultaneous measurements can be made over a very broad structural range to follow dynamic processes, such as chemical reactions, deposition of coatings and encapsulation/release from smart materials.</dc:description>
